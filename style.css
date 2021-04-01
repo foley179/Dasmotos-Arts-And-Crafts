@@ -1,0 +1,44 @@
+body {
+    background-color: #e4e4e4;
+    font-family: helvetica, sans-serif;
+}
+h1 {
+    background-image: url("image1.jpeg");
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+}
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+span {
+    color: blue;
+    font-weight: bold;
+}
+.brush {
+    background-color: mediumspringgreen;
+}
+.frame {
+    background-color: lightcoral;
+}
+.paint {
+    background-color: skyblue;
+}
+@media only screen and (max-width: 1024px) {
+    img {
+        width: 190px;
+        height: 190px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+}	
+@media only screen and (max-width: 768px) {
+    img {
+        width: 150px;
+        height: 150px;
+    }
+}
