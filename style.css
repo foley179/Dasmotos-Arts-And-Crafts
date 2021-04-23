@@ -1,6 +1,8 @@
 body {
     background-color: #e4e4e4;
     font-family: helvetica, sans-serif;
+    width: 1000px;
+    margin: 0 auto;
 }
 h1 {
     background-image: url("image1.jpeg");
